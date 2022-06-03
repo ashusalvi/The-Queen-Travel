@@ -66,7 +66,7 @@
                                     <div class=" rounded" style="box-shadow: 3px 2px 20px 4px #cc305d2b;">
                                         <div class="row no-gutters">
                                             <div class="col-md-5 bg-white"><img class="img-fluid profile"
-                                                    src="images/testimonial-1.jpg" height="300"></div>
+                                                    src="images/testimonial-1.jpg" style=" width: 100%;"></div>
                                             <div class="col-md-7">
                                                 <div class="bg-white p-2 px-3 testimonials"
                                                     style="height: 100%;display: table;">
@@ -85,7 +85,8 @@
                                     <div class=" rounded mt-5" style="box-shadow: 3px 2px 20px 4px #cc305d2b;">
                                         <div class="row no-gutters">
                                             <div class="col-md-5 bg-white"><img class="img-fluid profile"
-                                                    src="images/testimonial-2.jpeg" height="300"></div>
+                                                    src="images/testimonial-2.jpeg" style=" width: 100%;">
+                                            </div>
                                             <div class="col-md-7">
                                                 <div class="bg-white p-2 px-3 testimonials"
                                                     style="height: 100%;display: table;">
@@ -101,7 +102,7 @@
                                     <div class=" rounded mt-5" style="box-shadow: 3px 2px 20px 4px #cc305d2b;">
                                         <div class="row no-gutters">
                                             <div class="col-md-5 bg-white"><img class="img-fluid profile"
-                                                    src="images/testimonial-3.jpeg" height="300"></div>
+                                                    src="images/testimonial-3.jpeg" style=" width: 100%;"></div>
                                             <div class="col-md-7">
                                                 <div class="bg-white p-2 px-3 testimonials"
                                                     style="height: 100%;display: table;">
