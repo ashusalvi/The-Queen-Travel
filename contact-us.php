@@ -75,7 +75,7 @@
                                     href="mailto:info@travelqueens.in">info@travelqueens.in</a>
                             </li>
                         </ul>
-                        <h3 style="color: #572f89;">Follow Aria On Social Media</h3>
+                        <h3 style="color: #572f89;">Follow travel queens On Social Media</h3>
 
                         <span class="fa-stack">
                             <a href="https://www.facebook.com/travelqueensbom/">
@@ -111,7 +111,8 @@
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I agree with Aria's
+                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I agree with travel
+                            queens
                             stated <a href="privacy-policy.html">Privacy Policy</a> and <a
                                 href="terms-conditions.html">Terms Conditions</a>
                             <div class="help-block with-errors"></div>

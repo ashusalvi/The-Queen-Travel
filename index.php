@@ -115,8 +115,8 @@
                                     From <br>24000/-</p>
                                 <button type="button" class="btn know_more_details" city_name="Udaipur"
                                     city_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">BOOK
-                                    NOW</button>
+                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">KNOW
+                                    MORE</button>
                                 </a>
                             </div>
                         </div>
@@ -135,8 +135,8 @@
                                     From <br>24000/-</p>
                                 <button type="button" class="btn know_more_details" city_name="Udaipur"
                                     city_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">BOOK
-                                    NOW</button>
+                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">KNOW
+                                    MORE</button>
                                 </a>
                             </div>
                         </div>
@@ -155,8 +155,8 @@
                                     From <br>24000/-</p>
                                 <button type="button" class="btn know_more_details" city_name="Udaipur"
                                     city_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">BOOK
-                                    NOW</button>
+                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">KNOW
+                                    MORE</button>
                                 </a>
                             </div>
                         </div>
@@ -175,8 +175,8 @@
                                     From <br>24000/-</p>
                                 <button type="button" class="btn know_more_details" city_name="Udaipur"
                                     city_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">BOOK
-                                    NOW</button>
+                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">KNOW
+                                    MORE</button>
                                 </a>
                             </div>
                         </div>
@@ -217,8 +217,8 @@
                 </div>
                 <div class="modal-footer">
                     <a id="cityURL" href="packages-contact.php?package=udaipur">
-                        <button type="button" class="btn " style="color: #c4315f;border-color: #c4315f;">Contact
-                            Us</button>
+                        <button type="button" class="btn " style="color: #c4315f;border-color: #c4315f;">BOOK
+                            NOW</button>
                     </a>
                 </div>
             </div>
