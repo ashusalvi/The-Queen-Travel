@@ -20,7 +20,7 @@
     <meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>Queens | Home</title>
+    <title>Queens | Packages</title>
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext"
@@ -50,7 +50,10 @@
     <!-- end of preloader -->
 
 
-    <?php include('header.php'); ?>
+    <?php 
+    $page = "Packages";
+    include('header.php'); 
+    ?>
 
 
     <!-- Contact -->
@@ -59,41 +62,14 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <div class="section-title" style="color: #572f89;font-size:20px;">CONTACT For
-                            <b style="font-size: 30px;"><?= $_GET['package']?></b>
-                        </div>
-                        <h2 style="color: #572f89;">Get In Touch Using The Form</h2>
-                        <p>You can stop by our office for a cup of coffee and just use the contact form below for any
-                            questions and inquiries</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="address"><i class="fas fa-map-marker-alt"></i>
-                                Andheri west, Mumbai 400053
-                            </li>
-                            <li><i class="fas fa-phone"></i><a href="tel:919820095299">+91 98200 95299</a></li>
-                            <li><i class="fas fa-envelope"></i><a
-                                    href="mailto:info@travelqueens.in">info@travelqueens.in</a>
-                            </li>
-                        </ul>
-                        <h3 style="color: #572f89;">Follow Aria On Social Media</h3>
-
-                        <span class="fa-stack">
-                            <a href="https://www.facebook.com/travelqueensbom/">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.instagram.com/travelqueensbom/">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
+                        <h2 style="color: #572f89;">Submit your details, we will contact you at the earliest</h2>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
 
                     <!-- Contact Form -->
                     <form id="contactForm" data-toggle="validator" data-focus="false">
+                        <p style="font-size: 23px;color: #c4315f;"><b><?= $_GET['package']?></b></p>
                         <input type="hidden" class="form-control-input" <?= $_GET['package']?> id="package_name"
                             name="package_name" required>
                         <div class="form-group">
@@ -102,8 +78,18 @@
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
+                            <input type="text" class="form-control-input" id="no_of_pax" required>
+                            <label class="label-control" for="no_of_pax">Number of pax</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
                             <input type="email" class="form-control-input" id="cemail" required>
                             <label class="label-control" for="cemail">Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="mobile" required>
+                            <label class="label-control" for="mobile">Mobile number</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">

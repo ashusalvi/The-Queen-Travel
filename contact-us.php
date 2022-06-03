@@ -20,7 +20,7 @@
     <meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>Queens | Home</title>
+    <title>Queens | Contact</title>
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext"
@@ -50,7 +50,10 @@
     <!-- end of preloader -->
 
 
-    <?php include('header.php'); ?>
+    <?php 
+    $page = "contactus";
+    include('header.php'); 
+    ?>
 
 
     <!-- Contact -->

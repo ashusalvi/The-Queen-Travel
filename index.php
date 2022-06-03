@@ -50,7 +50,10 @@
     <!-- end of preloader -->
 
 
-    <?php include('header.php'); ?>
+    <?php 
+    $page = "home";
+    include('header.php'); 
+    ?>
 
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: 88px;">
@@ -96,10 +99,10 @@
     </div>
 
     <div id="intro" class="basic-1">
-        <div class="container">
+        <div class="container-fluid">
             <h2 style="text-align: center;width: 100%;color: #572f89;">Trending Destination</h2>
             <div class="row">
-                <div class="col-md-3 col-sm-6" style="padding: 7px 7px">
+                <div class="col-md-3 col-sm-6" style="padding: 10px 10px">
                     <div class="card" style="border-radius: 10px;">
                         <img class="card-img-top" src="images/place/udaipur.jpeg"
                             style="height: 300px;border-radius: 10px;">
@@ -110,17 +113,16 @@
                                 <p style="color: white;font-weight: 600;margin-bottom: 0px;margin-left: 15px;">
                                     Starting
                                     From <br>24000/-</p>
-
-                                <a href="packages-contact.php?package=udaipur"> <button type="button" class="btn"
-                                        style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">Know
-                                        More</button>
+                                <button type="button" class="btn know_more_details" city_name="Udaipur"
+                                    city_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">BOOK
+                                    NOW</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-3 col-sm-6" style="padding: 7px 7px">
+                <div class="col-md-3 col-sm-6" style="padding: 10px 10px">
                     <div class="card" style="border-radius: 10px;">
                         <img class="card-img-top" src="images/place/udaipur.jpeg"
                             style="height: 300px;border-radius: 10px;">
@@ -131,17 +133,16 @@
                                 <p style="color: white;font-weight: 600;margin-bottom: 0px;margin-left: 15px;">
                                     Starting
                                     From <br>24000/-</p>
-
-                                <a href="packages-contact.php?package=udaipur"> <button type="button" class="btn"
-                                        style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">Know
-                                        More</button>
+                                <button type="button" class="btn know_more_details" city_name="Udaipur"
+                                    city_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">BOOK
+                                    NOW</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-3 col-sm-6" style="padding: 7px 7px">
+                <div class="col-md-3 col-sm-6" style="padding: 10px 10px">
                     <div class="card" style="border-radius: 10px;">
                         <img class="card-img-top" src="images/place/udaipur.jpeg"
                             style="height: 300px;border-radius: 10px;">
@@ -152,17 +153,16 @@
                                 <p style="color: white;font-weight: 600;margin-bottom: 0px;margin-left: 15px;">
                                     Starting
                                     From <br>24000/-</p>
-
-                                <a href="packages-contact.php?package=udaipur"> <button type="button" class="btn"
-                                        style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">Know
-                                        More</button>
+                                <button type="button" class="btn know_more_details" city_name="Udaipur"
+                                    city_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">BOOK
+                                    NOW</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-3 col-sm-6" style="padding: 7px 7px">
+                <div class="col-md-3 col-sm-6" style="padding: 10px 10px">
                     <div class="card" style="border-radius: 10px;">
                         <img class="card-img-top" src="images/place/udaipur.jpeg"
                             style="height: 300px;border-radius: 10px;">
@@ -173,86 +173,75 @@
                                 <p style="color: white;font-weight: 600;margin-bottom: 0px;margin-left: 15px;">
                                     Starting
                                     From <br>24000/-</p>
-
-                                <a href="packages-contact.php?package=udaipur"> <button type="button" class="btn"
-                                        style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">Know
-                                        More</button>
+                                <button type="button" class="btn know_more_details" city_name="Udaipur"
+                                    city_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">BOOK
+                                    NOW</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6" style="padding: 7px 7px">
-                    <div class="card" style="border-radius: 10px;">
-                        <img class="card-img-top" src="images/place/udaipur.jpeg"
-                            style="height: 300px;border-radius: 10px;">
-                        <div class="card-body" style="border-radius: 10px;position: absolute; background: #0000008a; height: 100%; width:
-                        100%;">
-                            <h5 class="card-title" style="color: white;font-size: 31px;margin-top: 20px;">Udaipur</h5>
-                            <div style="display: flex;position: absolute;bottom: 11px;width: 100%;left: 0px;">
-                                <p style="color: white;font-weight: 600;margin-bottom: 0px;margin-left: 15px;">
-                                    Starting
-                                    From <br>24000/-</p>
+            </div>
+        </div>
+    </div>
 
-                                <a href="packages-contact.php?package=udaipur"> <button type="button" class="btn"
-                                        style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">Know
-                                        More</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+    <div class="modal fade" id="dealoftheday" tabindex="-1" role="dialog" aria-labelledby="dealofthedayTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle" style="color: #572f89;">Deal OF THE MONTH</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
+                <img src="images/place/udaipur.jpeg" style="height: 300px;">
+            </div>
+        </div>
+    </div>
 
-                <div class="col-md-3 col-sm-6" style="padding: 7px 7px">
-                    <div class="card" style="border-radius: 10px;">
-                        <img class="card-img-top" src="images/place/udaipur.jpeg"
-                            style="height: 300px;border-radius: 10px;">
-                        <div class="card-body" style="border-radius: 10px;position: absolute; background: #0000008a; height: 100%; width:
-                        100%;">
-                            <h5 class="card-title" style="color: white;font-size: 31px;margin-top: 20px;">Udaipur</h5>
-                            <div style="display: flex;position: absolute;bottom: 11px;width: 100%;left: 0px;">
-                                <p style="color: white;font-weight: 600;margin-bottom: 0px;margin-left: 15px;">
-                                    Starting
-                                    From <br>24000/-</p>
-
-                                <a href="packages-contact.php?package=udaipur"> <button type="button" class="btn"
-                                        style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">Know
-                                        More</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+    <div class="modal fade" id="productDescrition" tabindex="-1" role="dialog" aria-labelledby="productDescritionTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="CityName" style="color: #572f89;"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-
-                <div class="col-md-3 col-sm-6" style="padding: 7px 7px">
-                    <div class="card" style="border-radius: 10px;">
-                        <img class="card-img-top" src="images/place/udaipur.jpeg"
-                            style="height: 300px;border-radius: 10px;">
-                        <div class="card-body" style="border-radius: 10px;position: absolute; background: #0000008a; height: 100%; width:
-                        100%;">
-                            <h5 class="card-title" style="color: white;font-size: 31px;margin-top: 20px;">Udaipur</h5>
-                            <div style="display: flex;position: absolute;bottom: 11px;width: 100%;left: 0px;">
-                                <p style="color: white;font-weight: 600;margin-bottom: 0px;margin-left: 15px;">
-                                    Starting
-                                    From <br>24000/-</p>
-
-                                <a href="packages-contact.php?package=udaipur"> <button type="button" class="btn"
-                                        style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">Know
-                                        More</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="modal-body" id="cityDis">
+                    ...
                 </div>
-
-
+                <div class="modal-footer">
+                    <a id="cityURL" href="packages-contact.php?package=udaipur">
+                        <button type="button" class="btn " style="color: #c4315f;border-color: #c4315f;">Contact
+                            Us</button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 
 
     <?php include('footer.php'); ?>
+    <script>
+    setTimeout(function() {
+        $("#dealoftheday").modal("show");
+    }, 2000);
+
+    $('.know_more_details').click(function() {
+        let name = $(this).attr('city_name');
+        let description = $(this).attr('city_description');
+        let url = 'packages-contact.php?package=' + name;
+        $('#CityName').html(name);
+        $('#cityDis').html(description);
+        $('#cityURL').attr('href', url);
+        $("#productDescrition").modal("show");
+    });
+    </script>
 
 </body>
 

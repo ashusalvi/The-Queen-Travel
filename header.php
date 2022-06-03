@@ -1,3 +1,8 @@
+<style>
+.active_class {
+    color: #c4315f !important;
+}
+</style>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
     <!-- Text Logo - Use this if you don't have a graphic logo -->
@@ -17,20 +22,26 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link page-scroll" href="index.php" style="font-size: 15px;">HOME <span class="
+                <a class="nav-link page-scroll <?= $page == 'home'?'active_class':''?> " href="index.php"
+                    style="font-size: 15px;">HOME
+                    <span class="
                     sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link page-scroll" href="aboutus.php" style="font-size: 15px;">ABOUT US</a>
+                <a class="nav-link page-scroll <?= $page == 'aboutus'?'active_class':''?>" href="aboutus.php"
+                    style="font-size: 15px;">ABOUT US</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link page-scroll" href="packages.php" style="font-size: 15px;">OUR OFFERING/ PACKAGES</a>
+                <a class="nav-link page-scroll <?= $page == 'Packages'?'active_class':''?>" href="packages.php"
+                    style="font-size: 15px;">PACKAGES</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link page-scroll" href="testimonial.php" style="font-size: 15px;">TESTIMONIAL</a>
+                <a class="nav-link page-scroll <?= $page == 'Testimonials'?'active_class':''?>" href="testimonial.php"
+                    style="font-size: 15px;">TESTIMONIAL</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link page-scroll" href="contact-us.php" style="font-size: 15px;">CONTACT</a>
+                <a class="nav-link page-scroll <?= $page == 'Contact'?'active_class':''?>" href="contact-us.php"
+                    style="font-size: 15px;">CONTACT</a>
             </li>
         </ul>
         <span class="nav-item social-icons">

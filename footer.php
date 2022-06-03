@@ -3,6 +3,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
+                <p>
+                    <a href="index.php" style="margin-right: 20px;">HOME</a>
+                    <a href="aboutus.php" style="margin-right: 20px;">ABOUT US</a>
+                    <a href="packages.php" style="margin-right: 20px;">PACKAGES</a>
+                    <a href="testimonial.php" style="margin-right: 20px;">TESTIMONIAL</a>
+                    <a href="contact-us.php">CONTACT</a>
+                </p>
                 <p class="p-small">Copyright © 2022 <a href="#">The Queens</a></p>
             </div> <!-- end of col -->
         </div> <!-- enf of row -->
