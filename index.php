@@ -71,7 +71,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="images/header-background.jpg" alt="First slide">
+                <img class="d-block w-100" src="images/slider/slider_1.jpeg" alt="First slide">
                 <!-- <div class="carousel-caption d-none d-md-block">
                     <h5>Business Trips</h5>
                     <p>Aria is a top consultancy company specializing in business growth using online marketing and
@@ -79,7 +79,7 @@
                 </div> -->
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/details-1-background.jpg" alt="Second slide">
+                <img class="d-block w-100" src="images/slider/slider_2.jpeg" alt="Second slide">
                 <!-- <div class="carousel-caption d-none d-md-block">
                     <h5>Leisure Trips</h5>
                     <p>Aria is a top consultancy company specializing in business growth using online marketing and
@@ -87,7 +87,7 @@
                 </div> -->
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/details-2-background.jpg" alt="Third slide">
+                <img class="d-block w-100" src="images/slider/slider_3.jpeg" alt="Third slide">
                 <!-- <div class="carousel-caption d-none d-md-block">
                     <h5>Honeymoon and sightseeings</h5>
                     <p>Aria is a top consultancy company specializing in business growth using online marketing and
