@@ -153,7 +153,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <img src="images/place/udaipur.jpeg" style="height: 300px;">
+                <img src="images/deal_of_the_month/deal_of_month1.png" style="height: 300px;">
             </div>
         </div>
     </div>
