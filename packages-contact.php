@@ -68,9 +68,9 @@
                 <div class="col-lg-6">
 
                     <!-- Contact Form -->
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                    <form id="placeContactForm" data-toggle="validator" data-focus="false">
                         <p style="font-size: 23px;color: #c4315f;"><b><?= $_GET['package']?></b></p>
-                        <input type="hidden" class="form-control-input" <?= $_GET['package']?> id="package_name"
+                        <input type="hidden" class="form-control-input" value="<?= $_GET['package']?>" id="package_name"
                             name="package_name" required>
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="cname" required>

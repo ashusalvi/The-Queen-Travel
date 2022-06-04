@@ -25,8 +25,27 @@ if (empty($_POST["terms"])) {
     $terms = $_POST["terms"];
 }
 
-$EmailTo = "info@travelqueens.in";
-$Subject = "New message from Travel Queen Contact page";
+if (empty($_POST["no_of_pax"])) {
+    $errorMSG = "No of pax is required ";
+} else {
+    $no_of_pax = $_POST["no_of_pax"];
+}
+
+if (empty($_POST["mobile"])) {
+    $errorMSG = "mobile is required ";
+} else {
+    $mobile = $_POST["mobile"];
+}
+
+if (empty($_POST["package_name"])) {
+    $errorMSG = "package name is required ";
+} else {
+    $package_name = $_POST["package_name"];
+}
+
+
+$EmailTo = "ashusalvi281996@gmail.com";
+$Subject = "New message from Travel Queen package inquiry page";
 
 // prepare email body text
 $Body = "";
@@ -35,6 +54,15 @@ $Body .= $name;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $email;
+$Body .= "\n";
+$Body .= "Mobile: ";
+$Body .= $mobile;
+$Body .= "\n";
+$Body .= "No of pax: ";
+$Body .= $no_of_pax;
+$Body .= "\n";
+$Body .= "City: ";
+$Body .= $package_name;
 $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $message;
