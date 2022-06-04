@@ -53,6 +53,13 @@
     <?php 
     $page = "home";
     include('header.php'); 
+    // ['name'=>'Udaipur','image_url' => '/udaipur.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
+    $places = [
+        ['name'=>'France','image_url' => '/France.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
+        ['name'=>'Rajasthan','image_url' => '/Rajasthan.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
+        ['name'=>'Kerala','image_url' => '/Kerala.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
+        ['name'=>'Vietnam','image_url' => '/Vietnam.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
+    ]
     ?>
 
 
@@ -102,19 +109,24 @@
         <div class="container-fluid">
             <h2 style="text-align: center;width: 100%;color: #572f89;">Trending Destination</h2>
             <div class="row">
-                <div class="col-md-3 col-sm-6" style="padding: 10px 10px">
+                <?php
+                    foreach ($places as $key => $place) {
+                    ?>
+                <div class="col-md-3 col-sm-6 places_box" style="padding: 10px 10px;">
                     <div class="card" style="border-radius: 10px;">
-                        <img class="card-img-top" src="images/place/udaipur.jpeg"
+                        <img class="card-img-top" src="images/place<?= $place['image_url'];?>"
                             style="height: 300px;border-radius: 10px;">
-                        <div class="card-body" style="border-radius: 10px;position: absolute; background: #0000008a; height: 100%; width:
-                        100%;">
-                            <h5 class="card-title" style="color: white;font-size: 31px;margin-top: 20px;">Udaipur</h5>
+                        <div class="card-body"
+                            style="border-radius: 10px;position: absolute; background: #0000008a; height: 100%; width:100%;">
+                            <h5 class="card-title" style="color: white;font-size: 31px;margin-top: 20px;">
+                                <?= $place['name'];?>
+                            </h5>
                             <div style="display: flex;position: absolute;bottom: 11px;width: 100%;left: 0px;">
                                 <p style="color: white;font-weight: 600;margin-bottom: 0px;margin-left: 15px;">
                                     Starting
                                     From <br>24000/-</p>
-                                <button type="button" class="btn know_more_details" city_name="Udaipur"
-                                    city_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                <button type="button" class="btn know_more_details" city_name="<?= $place['name'];?>"
+                                    city_description="<?= $place['description'];?>"
                                     style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">KNOW
                                     MORE</button>
                                 </a>
@@ -122,70 +134,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6" style="padding: 10px 10px">
-                    <div class="card" style="border-radius: 10px;">
-                        <img class="card-img-top" src="images/place/udaipur.jpeg"
-                            style="height: 300px;border-radius: 10px;">
-                        <div class="card-body" style="border-radius: 10px;position: absolute; background: #0000008a; height: 100%; width:
-                        100%;">
-                            <h5 class="card-title" style="color: white;font-size: 31px;margin-top: 20px;">Udaipur</h5>
-                            <div style="display: flex;position: absolute;bottom: 11px;width: 100%;left: 0px;">
-                                <p style="color: white;font-weight: 600;margin-bottom: 0px;margin-left: 15px;">
-                                    Starting
-                                    From <br>24000/-</p>
-                                <button type="button" class="btn know_more_details" city_name="Udaipur"
-                                    city_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">KNOW
-                                    MORE</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6" style="padding: 10px 10px">
-                    <div class="card" style="border-radius: 10px;">
-                        <img class="card-img-top" src="images/place/udaipur.jpeg"
-                            style="height: 300px;border-radius: 10px;">
-                        <div class="card-body" style="border-radius: 10px;position: absolute; background: #0000008a; height: 100%; width:
-                        100%;">
-                            <h5 class="card-title" style="color: white;font-size: 31px;margin-top: 20px;">Udaipur</h5>
-                            <div style="display: flex;position: absolute;bottom: 11px;width: 100%;left: 0px;">
-                                <p style="color: white;font-weight: 600;margin-bottom: 0px;margin-left: 15px;">
-                                    Starting
-                                    From <br>24000/-</p>
-                                <button type="button" class="btn know_more_details" city_name="Udaipur"
-                                    city_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">KNOW
-                                    MORE</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6" style="padding: 10px 10px">
-                    <div class="card" style="border-radius: 10px;">
-                        <img class="card-img-top" src="images/place/udaipur.jpeg"
-                            style="height: 300px;border-radius: 10px;">
-                        <div class="card-body" style="border-radius: 10px;position: absolute; background: #0000008a; height: 100%; width:
-                        100%;">
-                            <h5 class="card-title" style="color: white;font-size: 31px;margin-top: 20px;">Udaipur</h5>
-                            <div style="display: flex;position: absolute;bottom: 11px;width: 100%;left: 0px;">
-                                <p style="color: white;font-weight: 600;margin-bottom: 0px;margin-left: 15px;">
-                                    Starting
-                                    From <br>24000/-</p>
-                                <button type="button" class="btn know_more_details" city_name="Udaipur"
-                                    city_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">KNOW
-                                    MORE</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                <?php
+                    }
+                ?>
             </div>
         </div>
     </div>
+
+
 
     <div class="modal fade" id="dealoftheday" tabindex="-1" role="dialog" aria-labelledby="dealofthedayTitle"
         aria-hidden="true">
