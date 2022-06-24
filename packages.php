@@ -54,17 +54,29 @@
     $page = "Packages";
     include('header.php'); 
     $international_places = [
-        ['name'=>'Greece','image_url' => '/Greece.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
-        ['name'=>'Malaysia','image_url' => '/Malaysia.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
-        ['name'=>'England','image_url' => '/England.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
-        ['name'=>'Australia','image_url' => '/Australia.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
+        ['name'=>'Nepal','image_url' => '/Nepal2.jpeg','description' => 'Land of the Sherpa’s and every mountaineers’ favorite destination'],
+        ['name'=>'Malaysia','image_url' => '/Malaysia.jpeg','description' => 'South East Asia’s most ethnically diverse country and a melting pot of cultures, languages and amazing cuisine'],
+        ['name'=>'Maldives','image_url' => '/Maldives.jpeg','description' => 'Wake up on a different island each day, every day for 365 days !'],
+        ['name'=>'Philippines','image_url' => '/Philippines.jpeg','description' => 'South East Asia’s honeymoon archipelago'],
+        ['name'=>'Dubai','image_url' => '/Dubai2.jpeg','description' => 'The fabled ‘City of Gold’ which boats of the latest and greatest in everything they do.'],
     ];
 
     $domestic_places = [
-        ['name'=>'Gir Reserve','image_url' => '/Gir-reserve.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
-        ['name'=>'Goa','image_url' => '/Goa.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
-        ['name'=>'Himachal Pradesh','image_url' => '/Himachal-Pradesh.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
-        ['name'=>'Sikkim','image_url' => '/Sikkim.jpeg','description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'],
+        ['name'=>'Anandaman','image_url' => '/Anandaman.jpeg','description' => 'The pearl of the Bay of Bengal, home to the best beaches in India and a group of indigenous people who call the island home'],
+        ['name'=>'Uttarakhand','image_url' => '/Uttarakhand.jpeg','description' => 'The land of Spirituality where Nature and spirituality co-exist to form a “Sangam” of sorts'],
+        ['name'=>'Rajasthan','image_url' => '/Rajasthan.jpeg','description' => 'The land of the Maharajas, where all that glitters is Gold'],
+        ['name'=>'Madhya Pradesh','image_url' => '/Madhya_Pradesh.jpeg','description' => 'The seat of many erstwhile kingdoms and the center of india. Enchanting Madhya Pradesh.'],
+        ['name'=>'Gir','image_url' => '/Gir.jpeg','description' => 'The last abode of the Asiatic Lions in the world,  the ‘King’s’ den, Gir forest reserve and adjoining Sasan areas.'],
+        ['name'=>'Chardham','image_url' => '/Chardham_2.jpeg','description' => 'When calling comes from Shiva, you must visit the Chardhams.'],
+        ['name'=>'Himachal Pradesh','image_url' => '/Himachal-Pradesh.jpeg','description' => 'The land of ‘Snow’ . Asia’s answer to Switzerland'],
+    ];
+    
+    $local_places = [
+        ['name'=>'Khandala','image_url' => '/Khandala.jpeg','description' => 'The pearl of the Bay of Bengal, home to the best beaches in India and a group of indigenous people who call the island home'],
+        ['name'=>'Mahabaleshwar','image_url' => '/Mahabaleshwar.jpeg','description' => 'The pearl of the Bay of Bengal, home to the best beaches in India and a group of indigenous people who call the island home'],
+        ['name'=>'Lonavala','image_url' => '/Lonavala.jpeg','description' => 'The pearl of the Bay of Bengal, home to the best beaches in India and a group of indigenous people who call the island home'],
+        ['name'=>'Igatpuri','image_url' => '/Igatpuri.jpeg','description' => 'The pearl of the Bay of Bengal, home to the best beaches in India and a group of indigenous people who call the island home'],
+        ['name'=>'Bhandardara','image_url' => '/Bhandardara.jpeg','description' => 'The pearl of the Bay of Bengal, home to the best beaches in India and a group of indigenous people who call the island home'],
     ];
     ?>
 
@@ -119,6 +131,44 @@
 
                 <?php
                     foreach ($domestic_places as $key => $place) {
+                    ?>
+                <div class="col-md-3 col-sm-6 places_box" style="padding: 10px 10px;">
+                    <div class="card" style="border-radius: 10px;">
+                        <img class="card-img-top" src="images/place<?= $place['image_url'];?>"
+                            style="height: 300px;border-radius: 10px;">
+                        <div class="card-body"
+                            style="border-radius: 10px;position: absolute; background: #0000008a; height: 100%; width:100%;">
+                            <h5 class="card-title" style="color: white;font-size: 31px;margin-top: 20px;">
+                                <?= $place['name'];?>
+                            </h5>
+                            <div style="display: flex;position: absolute;bottom: 11px;width: 100%;left: 0px;">
+                                <p style="color: white;font-weight: 600;margin-bottom: 0px;margin-left: 15px;">
+                                    Starting
+                                    From <br>24000/-</p>
+                                <button type="button" class="btn know_more_details" city_name="<?= $place['name'];?>"
+                                    city_description="<?= $place['description'];?>"
+                                    style="color: white;font-weight: 600;border-color: white;padding: 0px 8px;height: 42px;/* float: right; */position: absolute;right: 15px;">KNOW
+                                    MORE</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <?php
+                    }
+                ?>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="intro" class="basic-1" style="padding-top: 0px;">
+        <div class="container-fluid">
+            <h2 style="text-align: center;width: 100%;color: #c4315f;">Local Packages</h2>
+            <div class="row">
+
+                <?php
+                    foreach ($local_places as $key => $place) {
                     ?>
                 <div class="col-md-3 col-sm-6 places_box" style="padding: 10px 10px;">
                     <div class="card" style="border-radius: 10px;">
